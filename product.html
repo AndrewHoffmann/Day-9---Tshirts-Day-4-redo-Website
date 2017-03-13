@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Products Our 9th Website</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/nav.css"> <!-- Nav -->
+		<link rel="stylesheet" type="text/css" href="css/main.css"> <!-- Product -->
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+
+<body>		<!-- Product Page -->
+
+	<header class="container-fluid">
+
+		<div class="col-md-6 leftHeader"> 
+			<img src="images/logofull.png" alt="logo">
+		</div>
+
+		<div class="col-md-6 rightHeader">		<!-- navigation menu -->
+			<ul class="hidden-xs hidden-sm">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+
+	</header>
+
+	<div class="col-lg-12 spacer">		<!-- top "frame" for unique page content -->
+	</div>
+		
+<main id="Container">
+						<!-- BLUE tshirt -->
+	<div class="whole"> 				<!-- entire tshirt and menus -->
+
+		<div class="top"> 				<!-- tshirt only -->
+			<img src="TeeShirtStocks/blueshirt.png" alt="blueshirt">
+			<div class="share">
+				<p><i class="fa fa-share" aria-hidden="true"></i></p>
+			</div>
+		</div>
+
+		<div class="middle"> 			<!-- menus only, need 5 -->
+
+			<div class="flip">
+				<p><i class="fa fa-refresh" aria-hidden="true"></i></p>
+			</div>
+
+			<div class="love">
+				<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+			</div>
+
+			<div class="size">
+				<p><strong><span>XL</span></strong></p>	
+				<div class="dropdown-size">	<!-- top XL L M S bottom -->
+					<ul>
+						<li>XL</li>
+						<li>L</li>
+						<li>M</li>
+						<li>S</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="color">
+				<div class="swatch-container">
+						<div class="swatch blue"></div>
+				</div>			
+				<div class="dropdown-color">
+					<div class="colorSelect" id="blue"></div>
+					<div class="colorSelect" id="pink"></div>
+					<div class="colorSelect" id="orange"></div>
+					<div class="colorSelect" id="green"></div>
+				</div>
+			</div>		
+
+			<div id="blueCart" class="cart">
+				<p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+			</div>
+
+		</div>
+
+		<div class="bottom"> 			<!-- text and price only -->
+			<p>Save my trees</p>
+			<h3>$29</h3>
+		</div>
+
+	</div>
+
+
+						<!-- PINK tshirt -->
+	<div class="whole"> 	<!-- entire tshirt and menus -->
+
+
+		<div class="top"> 				<!-- tshirt only -->
+			<img src="TeeShirtStocks/pinkshirt.png" alt="blueshirt">
+			<div class="share">
+				<p><i class="fa fa-share" aria-hidden="true"></i></p>
+			</div>
+		</div>
+
+		<div class="middle"> 			<!-- menus only, need 5 -->
+
+			<div class="flip">
+				<p><i class="fa fa-refresh" aria-hidden="true"></i></p>
+			</div>
+
+			<div class="love">
+				<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+			</div>
+
+			<div class="size">
+				<p><strong>XL</strong></p>
+			</div>
+
+			<div class="color">
+				<div class="swatch pink"></div>
+			</div>
+
+			<div id="pinkCart" class="cart">
+				<p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+			</div>
+
+		</div>
+
+		<div class="bottom"> 			<!-- text and price only -->
+			<p>Nature Lover</p>
+			<h3>$19</h3>
+		</div>
+
+	</div>
+						<!-- ORANGE tshirt -->
+	<div class="whole"> 				<!-- entire tshirt and menus -->
+
+
+		<div class="top"> 				<!-- tshirt only -->
+			<img id="spacer" src="TeeShirtStocks/orangeshirt.png" alt="blueshirt">
+			<div class="share">
+				<p><i class="fa fa-share" aria-hidden="true"></i></p>
+			</div>
+		</div>
+
+		<div class="middle"> 			<!-- menus only, need 5 -->
+
+			<div class="flip">
+				<p><i class="fa fa-refresh" aria-hidden="true"></i></p>
+			</div>
+
+			<div class="love">
+				<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+			</div>
+
+			<div class="size">
+				<p><strong>XL</strong></p>
+			</div>
+
+			<div class="color">
+				<div class="swatch orange"></div>
+			</div>
+
+			<div id="orangeCart" class="cart">
+				<p><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
+			</div>
+
+		</div>
+
+		<div class="bottom"> 			<!-- text and price only -->
+			<p>Forrest Walk</p>
+			<h3>$39</h3>
+		</div>
+
+	</div>
+
+	<div class="totals">
+		<h3>Subtotal: <span id="subtotal"></span></h3> 	<!-- without tax -->
+		<h3>Total: <span id="total"></span></h3>		<!-- with tax -->	
+	</div>
+
+</main>
+
+<div class="col-lg-12 footer">			<!-- bottom "frame" for unique page content -->
+		<h2>Follow Hoffmann Tees on <a href="https://twitter.com/" target="_blank">twitter</a> | <a href="https://facebook.com" target="_blank">facebook</a> | <a href="https://www.instagram.com/" target="_blank">instagram</a>
+
+		</h2>
+		<h1>All Content Copyright © 1982-2017 Hoffmann Tees Inc. Use of this website constitutes acceptance of the <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=user+agreement&*" target="_blank">User Agreement.</a>
+		</h1>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+/*	scss for contact.html / Contact Page 
+	icon orange = #FE7001 
+	navy font = #074C95
+	neon green = #77B800 
+	darker orange = #D93D00 		*/
+
+h1, h2, h3, h4, h5, h6, i, p, li {
+	font-size: 15px;
+	text-align: center;
+}
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+
+	.backgroundImage {
+	width: 100%;
+	height: 550px;					/* adjust height for other content */
+	background-position: 0px 0px;
+	background-color: red;  		/* just to see where area is */
+		img {
+			height: 750px;
+			width: 100%;
+		}
+
+		h3 {
+			color: white;
+			font-size: 50px;
+		}
+
+		ul {
+			list-style-type: none;
+				li {
+					display: inline-block;
+
+					&:hover {
+					color: #77B800;
+					}
+				}
+		}
+	}
+}
+
+/* Make 3 tshirts stack vertically (one column) when browser "on sufficiently small screens" */
+@media screen and (max-width: 990px) {
+	.whole {
+		width: 75%;
+		display: block;
+	}
+}
