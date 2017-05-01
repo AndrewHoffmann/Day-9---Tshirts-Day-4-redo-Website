@@ -1,4 +1,4 @@
-alert('test') // use in every js, makes sure no errors, will load when ok
+// alert('test') // use in every js, makes sure no errors, will load when ok
 
 // all HTML elements
 // make 5 variables for 3 carts, subtotal, and total
@@ -70,4 +70,22 @@ orangeCart.addEventListener('click',function(){
 
 	subtotal.innerHTML=subtotaljs;
 	total.innerHTML=totaljs.toFixed(2);  // will limit decimals to 2
+})
+
+// mobile menu
+// need to create new js file (nav.js) for all pages that don't have the carts on them and then load the code from here down, also link to them.
+
+var menu = document.getElementById('bars');
+var mobileList = document.getElementById('mobileList');
+var active = false;
+
+menu.addEventListener('click',function(){
+  if(active === false)
+    {
+     mobileList.style.display = "block";
+      active = true;
+    } else {
+      mobileList.style.display = "none";
+      active=false;
+    }
 })
